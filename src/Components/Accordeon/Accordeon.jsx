@@ -7,14 +7,14 @@ const Accordeon = ({info}) => {
     <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header className='quicksand fw-bold text-success'>
-          Ingredients and Measures
+            Ingrédients et mesures
         </Accordion.Header>
         <Accordion.Body>
             <IngredientsMeasures info={info}></IngredientsMeasures>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header className='quicksand'>Instructions</Accordion.Header>
+        <Accordion.Header className='quicksand'> Les instructions</Accordion.Header>
         <Accordion.Body className='quicksand'>
             {info.strInstructions}
         </Accordion.Body>
